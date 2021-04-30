@@ -1,7 +1,20 @@
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <body>
-        <referenceContainer name="content.top">
+        <!-- <referenceContainer name="content.top">
             <block class="Magento\Framework\View\Element\Template" name="table" template="Magento_Theme::test.phtml" /> 
-        </referenceContainer>      
+        </referenceContainer>       -->
+   
+    
+  
+        <referenceContainer name="footer">
+            <referenceBlock name="footer_links" remove="true" />
+            <referenceBlock name="copyright" remove="true" />
+            <referenceBlock name="form.subscribe" remove="true" />
+            <referenceBlock name="report.bugs" remove="true" />
+            <referenceBlock name="links" remove="true" />
+
+            <!-- <block class="Magento\Framework\View\Element\Template" name="page-footer" before="-" template="Magento_Theme::footer_menu.phtml"/> -->
+        </referenceContainer>
     </body>
+
 </page>
