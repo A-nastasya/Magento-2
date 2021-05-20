@@ -1,4 +1,7 @@
+//color
+$color-pink2: #d861a3;
 //  Primary button
-$button-primary__background: #d861a3;
+$button-primary__background: $color-pink2;
+$button-primary__border: $color-pink2;
 //text
 $text__color: #26084e;
