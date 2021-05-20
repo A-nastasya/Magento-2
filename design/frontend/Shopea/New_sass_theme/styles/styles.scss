@@ -1,5 +1,6 @@
 //Main text color
-$text__color: #ff8c00;
+@import 'extand';
+
 // Mixins
 @import "mixins/media-queries";
 
