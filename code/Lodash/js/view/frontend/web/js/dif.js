@@ -3,7 +3,7 @@ define([
 ], function(){
         "use strict";
         return function() {
-          console.log(_.defaults({ 'a': 1 }, { 'a': 3, 'b': 2 }));
+          console.log(_.difference([2, 1], [2, 3]));
             
         }
     }
